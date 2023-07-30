@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                background-image:url('360_F_100341373_Pq7QzOJOLAvZaJysSYYbeZ9uqEIQV7bk.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            h1{
+                color: white;
+            }
+            .sample{
+                color: yellow;
+            }
+            #title{
+               color: red; 
+            }
+            .card{
+                /*background-color: green;*/
+                /* background-color: rgb(220,100,060) */
+                background-color: rgba(225,225,225,0.5);
+                width: 500px;
+                height: 300px 
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Quotes <span style="color: brown">for</span> Life</h1>
+            <h1 class="sample">Quotes for Life</h1>
+            <h1 id="title">Quotes for Life</h1>
+            
+            <div class="card">
+                <h2>"You only <br/> live once"</h2>
+            </div>
+        </center>
+    </body>
+</html>
